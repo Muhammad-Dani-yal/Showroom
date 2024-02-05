@@ -220,7 +220,8 @@ void main() {
       if (bikeTypeInput == "exotics" ||
           bikeTypeInput == "touring" ||
           bikeTypeInput == "roadsters") {
-        print("\nEnter The Brand You Are Looking For:");
+        print(
+            "\nEnter The Brand You Are Looking For: Bmw, Yamaha, Kawasaki, Honda, Ducati, Aprilia, Mv Agusta, Suzuki, Harley-Davidson");
         String brandInput = stdin.readLineSync()!.toLowerCase();
 
         List<List<Map<String, dynamic>>> bikeList;
